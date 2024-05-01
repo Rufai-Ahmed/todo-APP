@@ -1,6 +1,8 @@
-# todo-APP
 
 # TODO Application
+
+### Backend URL: https://todo-app-jayh.onrender.com/
+### Frontend URL: https://todo-app-lilac-alpha.vercel.app/
 
 ## Description
 
