@@ -70,7 +70,9 @@ function App() {
         return res.json();
       })
       .then((res) => {
-        window.location.reload();
+        setTimeout(() => {
+          window.location.reload();
+        }, 3000);
         console.log(res, "update");
       });
   };
@@ -82,7 +84,9 @@ function App() {
       })
       .then((res) => {
         console.log(res, "update");
-        window.location.reload();
+        setTimeout(() => {
+          window.location.reload();
+        }, 3000);
       });
   };
 
@@ -106,7 +110,9 @@ function App() {
               createTask();
               // setText("");
               onToggle();
-              window.location.reload();
+              setTimeout(() => {
+                window.location.reload();
+              }, 3000);
             }}
             className="w-[300px] border h-[40px] p-2 bg-blue-800 mt-5 text-white mb-20"
           >
