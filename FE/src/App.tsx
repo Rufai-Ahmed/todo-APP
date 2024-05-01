@@ -4,7 +4,7 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 import moment from "moment";
 
 function App() {
-  const url: string = "http://localhost:4000/api";
+  const url: string = "https://todo-app-jayh.onrender.com/api";
 
   const [data, setData] = useState<{}>({});
   const [text, setText] = useState<string>("");
@@ -164,7 +164,7 @@ function App() {
                               ? changeToDone(props?._id)
                               : changeToDone(props?._id)
                           }
-                          className={`py-1 px-2 mt-2 md:px-8 text-white rounded-md cursor-pointer font-bold text-[12px] tracking-widest ${
+                          className={`py-1 px-2 mt-2b md:px-8 text-white rounded-md cursor-pointer font-bold text-[12px] tracking-widest ${
                             props.progress && !props?.done
                               ? "bg-orange-500"
                               : props?.progress && props.done
